@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles */
+    body {
+      background-color: #f0f0f0; /* Light gray background */
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
+    .featured-products h1, .categories h1 {
+      font-size: 2rem;
+      color: #343a40;
+    }
+
+    .card {
+      border: none;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      color: #343a40;
+    }
+
+    .card-text {
+      color: #6c757d;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    .list-group-item {
+      color: #343a40;
+      font-weight: bold;
+    }
+
+    .list-group-item:hover {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">SHOPPING APP</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="featured-products">
+      <h1 class="mt-5 mb-4">Featured Products</h1>
+      <!-- Display featured products -->
+      <div class="row">
+        <!-- Featured Product 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Simple Bookshelf</h5>
+              <p class="card-text">A sturdy bookshelf for your study room or living room.</p>
+              <p class="card-text">Price: $39.99</p>
+              <a href="product_detail.html" class="btn btn-primary btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Featured Product 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Comfortable Sofa</h5>
+              <p class="card-text">A cozy sofa for your living room, perfect for relaxation.</p>
+              <p class="card-text">Price: $299.99</p>
+              <a href="product_detail.html" class="btn btn-primary btn-sm">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more featured products -->
+      </div>
+    </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

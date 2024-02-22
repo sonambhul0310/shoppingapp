@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles */
+    body {
+      background-color: #f0f0f0; /* Light gray background */
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
+    .cart-item {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .cart-item img {
+      max-width: 100px;
+      border-radius: 5px;
+    }
+
+    .cart-item-title {
+      font-size: 1.5rem;
+      color: #343a40;
+    }
+
+    .cart-item-price {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .btn-checkout {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">E-Commerce</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="mt-4 mb-4">Shopping Cart</h1>
+    <!-- Cart items -->
+    <div class="cart-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="product1.jpg" alt="Product 1">
+        </div>
+        <div class="col-md-6">
+          <h2 class="cart-item-title">Simple Bookshelf</h2>
+          <p class="cart-item-price">$39.99</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add more cart items as needed -->
+
+    <!-- Checkout button -->
+    <a href="checkout.html" class="btn btn-primary btn-lg btn-checkout">Proceed to Checkout</a>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
